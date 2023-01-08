@@ -1,4 +1,7 @@
 m=input("please enter the any two of the day name\n")
+a=m.find('z')
+print(a)
+
 n=m.find('d')
 print(n)
 o=m.rfind('d')

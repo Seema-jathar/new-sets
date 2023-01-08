@@ -5,4 +5,4 @@ last_name = last_name.capitalize()
 full_name = frist_name + last_name
 len_full_name = len(full_name)
 print(full_name[-len_full_name:-len(last_name)],full_name[-len(last_name):])
-
+print(full_name[0:len(frist_name)],full_name[len(frist_name):])
